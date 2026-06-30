@@ -1,1 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologia e Simplicidade | Mundo Apple</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="background-overlay"></div>
+
+    <header>
+
+        <h1>Tecnologia e Simplicidade</h1>
+
+        <p class="subtitle">
+            A tecnologia avançada em um aparelho do cotidiano.
+        </p>
+
+        <nav>
+
+            <button onclick="scrollToSection('sobre')">Sobre</button>
+
+            <button onclick="scrollToSection('iphones')">iPhones</button>
+
+        </nav>
+
+    </header>
+
+    <section class="accessibility">
+
+        <h2>Acessibilidade</h2>
+
+        <button onclick="changeFont('Poppins')">Poppins</button>
+
+        <button onclick="changeFont('Arial')">Arial</button>
+
+        <button onclick="changeFont('Verdana')">Verdana</button>
+
+        <button onclick="changeFont('Trebuchet MS')">Trebuchet</button>
+
+        <button onclick="changeFont('Tahoma')">Tahoma</button>
+
+    </section>
+
+    <section id="sobre">
+
+        <h2>Sobre a Apple</h2>
+
+        <p>
+            A Apple foi fundada em 1976 por Steve Jobs,
+            Steve Wozniak e Ronald Wayne.
+        </p>
+
+        <p>
+            Desde o Apple I até os iPhones atuais,
+            a empresa revolucionou a computação,
+            smartphones, tablets e dispositivos inteligentes.
+        </p>
+
+    </section>
+
+    <section id="iphones">
+
+        <h2>Linha do Tempo dos iPhones</h2>
+
+        <div class="iphone-grid">
+
+            <div class="iphone-card">
+
+                <img src="img/iphone1.png" alt="iPhone Original">
+
+                <h3>iPhone (2007)</h3>
+
+                <p>
+                    O primeiro iPhone revolucionou os smartphones
+                    ao unir telefone, internet e iPod.
+                </p>
+
+            </div>
+
+            <div class="iphone-card">
+
+                <img src="img/iphone3g.png" alt="iPhone 3G">
+
+                <h3>iPhone 3G</h3>
+
+                <p>
+                    Trouxe internet móvel 3G e a App Store.
+                </p>
+
+            </div>
+
+            <div class="iphone-card">
+
+                <img src="img/iphone4.png" alt="iPhone 4">
+
+                <h3>iPhone 4</h3>
+
+                <p>
+                    Introduziu o Retina Display.
+                </p>
+
+            </div>
+
+            <div class="iphone-card">
+
+                <img src="img/iphone15.png" alt="iPhone 15">
+
+                <h3>iPhone 15</h3>
+
+                <p>
+                    Dynamic Island, USB-C e câmera avançada.
+                </p>
+
+            </div>
+
+            <div class="iphone-card">
+
+                <img src="img/iphone18.png" alt="iPhone 18">
+
+                <h3>iPhone 18</h3>
+
+                <p>
+                    Espaço reservado para futuras informações.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>© 2026 Mundo Apple</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
